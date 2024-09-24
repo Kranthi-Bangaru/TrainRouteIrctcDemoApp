@@ -1,0 +1,412 @@
+.tittle-header {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    z-index: 10;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.form-container {
+    position: absolute;
+    left: 50px;
+    top: 20%;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20px;
+}
+
+.submit-button {
+    position: absolute;
+    left: 180px;
+    top: 63%;
+}
+
+.side-header {
+    position: relative;
+    margin-left: -100px;
+    border: 2.5mm solid rgb(153, 152, 152);
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    height: 70px;
+    padding: 20px;
+    width: 240%;
+}
+
+.all-Routes {
+    position: absolute;
+    left: 50;
+    margin-left: -2%;
+    top: 18.5%;
+}
+
+.routs-ListButton {
+    position: absolute;
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    top: 0%;
+    margin-left: 40px;
+    margin-top: 15%;
+}
+
+.routs-ListButton:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+.routs-ListButton:active {
+    background-color: #3e8e41;
+    transform: scale(1);
+}
+
+.click-Button {
+    margin-top: -120px;
+    margin-left: 0px;
+}
+
+.route-Id {
+    left: 60;
+    margin-left: -10%;
+    top: -200%;
+    position: relative;
+    border: 2.5mm solid rgb(153, 152, 152);
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    height: 100px;
+    padding: 20px;
+    width: 105%;
+}
+
+.route-Id-header {
+    position: absolute;
+    top: -20px;
+    padding: 0 10px;
+    transform: translateY(-50%);
+    font-weight: bold;
+    left: 120px;
+}
+
+.route-Id-textFiled {
+    top: -10px;
+    margin-top: 50px;
+}
+
+.routs-IdButton {
+    position: absolute;
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    top: 0%;
+    margin-top: 90px;
+    margin-left: -45%;
+}
+
+.routs-IdButton:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+.routs-IdButton:active {
+    background-color: #3e8e41;
+    transform: scale(1);
+}
+
+.App-footer {
+    background-color: #282c34;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+.userName {
+    position: absolute;
+    left: 75px;
+    top: 70px;
+    text-align: left;
+    font-size: 80%;
+}
+
+.welcomeText {
+    font-size: 80%;
+    color: #f9f3f3e1;
+}
+
+.nameText {
+    font-size: 80%;
+    color: #9eb8d2d1;
+    margin-top: 5px;
+}
+
+
+/* header properties */
+
+.main-header {
+    background-color: #333;
+    color: white;
+    padding: 0px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex-wrap: nowrap;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-menu {
+    display: flex;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 0 15px;
+    font-size: 1rem;
+    line-height: 3.5;
+    transition: color 0.3s;
+}
+
+.nav-link.active {
+    color: #04AA6D;
+}
+
+.nav-link:hover {
+    color: #04AA6D;
+}
+
+@media (max-width: 768px) {
+    .main-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-menu {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+}
+
+.main-footer {
+    background-color: #333;
+    color: white;
+    padding: 0.5px 0;
+    text-align: center;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.footer-bottom {
+    margin: 0;
+    padding: 10px 0;
+    font-size: 0.9rem;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.logo-container .logo img {
+    width: 15mm;
+    height: 15mm;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.all-Routes {
+    height: 30%;
+    position: absolute;
+}
+
+.data-container {
+    width: 45%;
+    margin-left: 20px;
+    margin-top: 200px;
+}
+
+.all-Routes-Data {
+    padding: 10px;
+    top: 20px;
+    margin-bottom: 10px;
+    margin-left: 200px;
+    font-size: 15px;
+    width: 200%;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: -200px;
+}
+
+.existing-ui {
+    width: 50%;
+    margin-left: 20px;
+}
+
+.data-table {
+    width: 70%;
+    border-collapse: collapse;
+    margin-top: -500px;
+    margin-left: 600px;
+}
+
+.data-table th,
+.data-table td {
+    border: 1px solid #371717;
+    padding: 8px;
+    text-align: left;
+}
+
+.data-table th {
+    background-color: #371717;
+    color: black;
+}
+
+.data-table tr:nth-child(even) {
+    background-color: #371717;
+}
+
+.data-table tr:hover {
+    background-color: #ddd;
+}
+
+.cancel-button {
+    background-color: #f44336;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-right: -395px;
+    float: right;
+    margin-top: -500px;
+}
+
+.cancel-button:hover {
+    background-color: #d32f2f;
+}
+
+.route-data table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.route-data th,
+.route-data td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.route-data th {
+    background-color: #403e3e;
+    font-weight: bold;
+}
+
+.route-data tr:nth-child(even) {
+    background-color: #403e3e;
+}
+
+.route-data tr:hover {
+    background-color: #403e3e;
+}
+
+.route-data {
+    border: 1px solid #403e3e;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-top: -150px;
+    margin-left: 1000px;
+}
+
+.Add-containers {
+    margin-left: -1200px;
+    position: relative;
+    margin-bottom: 0px;
+    margin-top: 600px;
+}
+
+.add-item {
+    display: flex;
+    align-items: center;
+}
+
+.add-item h5 {
+    margin: 0;
+    margin-right: 10px;
+}
+
+.click-here-button-train {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 90px;
+    position: absolute;
+    top: 24px;
+}
+
+.click-here-button-train:hover {
+    background-color: #0056b3;
+}
+
+.click-here-button-route {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 90px;
+    position: absolute;
+    top: 90px;
+}
+
+.click-here-button-route:hover {
+    background-color: #0056b3;
+}
